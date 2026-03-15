@@ -1,0 +1,25 @@
+:root {
+  --cr-yellow: #F2C94C;
+  --cr-orange: #E8873C;
+  --cr-red: #C0392B;
+  --cr-blue: #2B7CB8;
+  --cr-green: #2D8F4E;
+  --cr-dark: #1A1A2E;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #F5F6F8;
+  color: #1A1A2E;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root { min-height: 100vh; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 3px; }
+
+button { font-family: inherit; }
+a { text-decoration: none; color: inherit; }
